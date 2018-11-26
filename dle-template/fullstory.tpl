@@ -26,37 +26,7 @@
 						[edit]<i title="Редактировать"></i>[/edit]
 					</div>
 					[/not-group]
-					[rating]
-					<div class="rate">
-						[rating-type-2]
-							<div class="rate_like" title="Мне нравится">
-							[rating-plus]
-								<span class="rate_like_icon"><svg class="icon icon-like"><use xlink:href="#icon-like"></use></svg></span>
-								<span class="grey">{rating}</span>
-							[/rating-plus]
-							</div>
-						[/rating-type-2]
-						[rating-type-3]
-							<div class="rate_like-dislike">
-								<div class="rate_like-dislike_in">
-									[rating-plus]<span class="plus_icon" title="Нравится"><span>+</span></span>[/rating-plus]
-									[rating-minus]<span class="plus_icon minus" title="Не нравится"><span>-</span></span>[/rating-minus]
-								</div>
-								<span class="grey">{rating}</span>
-							</div>
-						[/rating-type-3]
-						[rating-type-4]
-							<div class="rate_like-dislike">
-								<span class="grey"><span class="ratingtypeplusminus ignore-select ratingplus">{likes}</span></span>
-								<div class="rate_like-dislike_in">
-									[rating-plus]<span class="plus_icon" title="Нравится"><span>+</span></span>[/rating-plus]
-									[rating-minus]<span class="plus_icon minus" title="Не нравится"><span>-</span></span>[/rating-minus]
-								</div>
-								<span class="grey"><span class="ratingtypeplusminus ratingminus ignore-select">{dislikes}</span></span>
-							</div>
-						[/rating-type-4]
-					</div>
-					[/rating]
+					
 				</div>
 			</div>
 			<div class="text">

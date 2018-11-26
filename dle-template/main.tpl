@@ -7,7 +7,7 @@
 		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="default">
-		<link rel="shortcut icon" href="{THEME}/images/favicon.ico">
+		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="{THEME}/images/touch-icon-iphone.png">
 		<link rel="apple-touch-icon" sizes="76x76" href="{THEME}/images/touch-icon-ipad.png">
 		<link rel="apple-touch-icon" sizes="120x120" href="{THEME}/images/touch-icon-iphone-retina.png">
@@ -26,7 +26,7 @@
 			<div class="nav container">
 				<div class="nav-logo">
 					
-					<a href="/"><img class="nav-txt" src = "https://imgur.com/Z9mr0QP.png"/></a>
+					<a href="/"><img class="nav-txt" src = "http://alexpuskins.com/uploads/alexpuskinslogo.png"/  ></a>
 				</div>
 					<div class="nav-form">
 						
@@ -43,9 +43,9 @@
 					</div>
 
 				<div class="nav-icon">
-					<a href="#"><i class="fab fa-instagram"  style="font-size: 28px; color:#000;"></i></a>
-					<a href="#"><i class="fab fa-facebook-square"  style="font-size: 28px; color:#000;"></i></a>
-					<a href="#"><i class="fab fa-vk"  style="font-size: 28px; color:#000;"></i></a>
+					<a target="_blank" href="https://www.instagram.com/alex.puskins/"><i class="fab fa-instagram"  style="font-size: 28px; color:#000;"></i></a>
+					<a target="_blank" href="https://www.facebook.com/alexpuskinsdotcom/"><i class="fab fa-facebook-square"  style="font-size: 28px; color:#000;"></i></a>
+					<a target="_blank" href="https://vk.com/alexmeisters"><i class="fab fa-vk"  style="font-size: 28px; color:#000;"></i></a>
 					
 				</div>
 			</div>
@@ -56,10 +56,23 @@
 	
 	<!-- / Сортировка, Теги, Хлебные крошки -->
 	<!-- Контент -->
+        <div align="center" class="cat_links container">
+			<ul>
+				<li><a href="/events">Events</a></li>
+				<li><a href="/people/">People</a></li>
+				<li><a href="/sports/">Sports</a></li>
+				<li><a href="/cars/">Cars</a></li>
+            <li><a href="/concerts/">Concerts</a></li>
+				<li><a href="/riga/">Riga</a></li>
+                <li><a href="/other/">Other</a></li>
+	
+			</ul>
+		</div>
 	<main>
 			<div class="container">
-				[available=cat|favorites|newposts|lastnews|main|search]<div class="gallery">[/available]
-					{info}
+                {info}
+				[available=cat|favorites|newposts|lastnews|main|search]<div id="dle-content" class="gallery">[/available]
+					
 					{content}
 				[available=cat|favorites|newposts|lastnews|main|search]</div>[/available]
 				

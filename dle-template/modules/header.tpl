@@ -2,27 +2,25 @@
 			<div class="container">
 				<div class="profile">
 					<div class="profile-image">
-						<img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="">
+						<img src="http://alexpuskins.com/uploads/1logoweb.png" width="250" alt="">
 					</div>
 					<div class="profile-user-settings">
-						<h1 class="profile-user-name">alex.puskins</h1>
+						<h1 class="profile-user-name">Alex puskins | Photographer from Riga</h1>
 						<!-- <button class="btn profile-edit-btn">Edit Profile</button>
 						<button class="btn profile-settings-btn" aria-label="profile settings"><i class="fas fa-cog" aria-hidden="true"></i></button> -->
 					</div>
 					<div class="profile-stats">
 						<ul>
-							<li><span class="profile-stat-count">575</span> публикаций</li>
-							<li><span class="profile-stat-count">1 847</span> подписчиков </li>
-							<li><span class="profile-stat-count">506</span> Подписки</li>
+							<li><span class="profile-stat-count">{allcount}</span> публикаций</li>
+							
 						</ul>
 					</div>
 					<div class="profile-bio">
-						<p><span class="profile-real-name">Alex Puskins</span>
-						Alex Puskins | Photographer <br>
-						from Riga, Latvia. <br>
-						Sport | Events | Cars | City <br>
-						Facebook - www.facebook.com/alexpuskinsdotcom | <br>
-						<a href="https://alexpuskins.com">alexpuskins.com</a></p>
+						<p><span class="profile-real-name">Sport photography</span>
+						| Football, basket, floorball and others.<br>
+						My contacts - <br>
+                            Email - <a href="mailto:>rusalex11@live.com">rusalex11@live.com</a><br>
+                            Facebook - <a target="_blank" href="https://www.facebook.com/alexpuskins11">facebook.com/alexpuskins11</a></p>
 					</div>
 				</div>
 				<!-- End of profile section -->
